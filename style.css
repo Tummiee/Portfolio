@@ -536,6 +536,9 @@ section .sec-4 .btn:hover {
 }
 
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   height: 10%;
   width: 100%;
