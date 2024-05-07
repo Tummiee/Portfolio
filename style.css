@@ -222,19 +222,18 @@ section .sec-1 .home .images {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 70px;
+  padding-top: 10%;
   width: 80vw;
 }
 section .sec-1 .home .images .keyboard {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 50%;
+  width: 82%;
 }
 section .sec-1 .home .images .Mouse {
   position: relative;
-  width: 10%;
-  height: 200px;
-  padding-bottom: 45px;
+  width: 17%;
+  left: 3%;
 }
 section .sec-2 {
   position: relative;

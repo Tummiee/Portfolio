@@ -247,18 +247,17 @@ section{
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                padding-top: 70px;
+                padding-top: 10%;
                 width: 80vw;
 
                 .keyboard{
                     object-fit: cover;
-                    width: 50%;
+                    width: 82%;
                 }
                 .Mouse{
                     position: relative;
-                    width: 10%;
-                    height: 200px;
-                    padding-bottom: 45px;
+                    width: 17%;
+                    left: 3%;
                 }
             }
         }
