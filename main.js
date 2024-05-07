@@ -37,7 +37,7 @@ let sections = document.querySelectorAll('#animation');
 window.onscroll = () => {
     sections.forEach(sec =>{
         let top = scrollY;
-        let offset = sec.offsetTop - 200;
+        let offset = sec.offsetTop - 300;
         let height = sec.offsetHeight;
 
         if (top >= offset && top < offset + height) {
