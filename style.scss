@@ -59,7 +59,7 @@ body{
         display: flex;
         justify-content: center;
         position: fixed;
-        left: 33%;
+        left: 30%;
         bottom: 0;
         height: 8vh;
         width: 30%;
@@ -81,7 +81,7 @@ body{
             width: 100%;
             img{
                 filter: brightness(0) invert(1);
-                width: 3vw;
+                width: 3.3vw;
                 display: inline-block;
             }
         }
@@ -455,8 +455,6 @@ section{
                     display: inline-block;
                     vertical-align: middle;
                     transition: transform .5s;
-                    transform: translateX(-100%);
-                    transition: calc(.2s * var(--i));
                 }
 
                 .work:hover img{
