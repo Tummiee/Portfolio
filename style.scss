@@ -61,7 +61,7 @@ body{
         position: fixed;
         left: 35%;
         bottom: 0;
-        height: 8vh;
+        height: 7vh;
         width: 30%;
         background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
         backdrop-filter: blur(10px);
@@ -824,6 +824,7 @@ footer{
 
         .floating-menu{
             width: 40%;
+            left: 30%;
         }
     }
    
